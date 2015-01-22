@@ -140,6 +140,7 @@ alarmclock on alarmclock set on true .
 alarmclock program alarmclock set ready true .
 alarmclock set alaramclock set ready true .
 alarmclock wakeup person get self wakeup .
+alarm off alarm set on false .
 alarm on alarm set on true .
 alarm on person get near on .
 alarm on person get near setalarm .
@@ -161,7 +162,6 @@ alcohol get person set has alcohol .
 alcohol locate alcohol set where bar .
 alcohol mix alcohol set liquid liquid .
 alcohol offer thing get self drink .
-alcohol offer thing get self hasgoal .
 algeria default algeria set where africa .
 algeria locate algeria set where africa .
 alley default alley set genls path .
@@ -182,9 +182,8 @@ anchor atrest anchor set lowered true .
 anchor default anchor set lowered false .
 anchor init anchor set lowered false .
 anchor init anchor set partof ship .
-and default and set partpersonhair parthumanhair .
 anemone default anemone set genls flower .
-anemone sting alive get self clownfish .
+anemone sting clownfish get self alive .
 anemone sting animal get self absorb .
 anemone sting animal get self absorbpoison .
 anemone sting animal set poisoned true .
@@ -214,7 +213,7 @@ animal carefor animal get self carefor .
 animal carefor animal set animal animal .
 animal castrate animal set notpart testicle .
 animal cooperate animal get self cooperate .
-animal cooperate animal set bond animal .
+animal cooperate animal set socialbond animal .
 animal cooperate thing get self communicate .
 animal cooperate thing get self eval .
 animal cough flem get itself rise .
@@ -272,7 +271,7 @@ animal hunt prey get self fight .
 animal inhale animal get self cough .
 animal inhale smoke get self inhale .
 animal init animal set alive true .
-animal init animal set bond animal .
+animal init animal set socialbond animal .
 animal init animal set conscious true .
 animal init animal set hears sound .
 animal init animal set hungry false .
@@ -430,7 +429,7 @@ army retreat enemy get self advance .
 army war army get leader strategize .
 army war army get leader war .
 army war army get self plan .
-army war army set army army .
+army war army set includes soldier .
 army winwar general set socialstatus inc .
 arrow default arrow set moving false .
 arrow init arrow set moving false .
@@ -490,6 +489,7 @@ automobile default automobile set syn car .
 automobile use automobile set function transport .
 avenue default avenue set genls street .
 avocado default avocado set genls fruit .
+avocado default avocado set colour green .
 awl default awl set genls tool .
 ax blunt ax set blunt true .
 ax blunt ax set sharp false .
@@ -534,6 +534,7 @@ badget default badget set genls mammal .
 badminton play shuttlecock get self play .
 bag default bag set contains rubbish .
 bag default bag set contains thing .
+bag default bag set contains keys .
 bagel default bagel set genls food .
 bagel default bagel set genls roll .
 bagpipe default bagpipe set genls instrument .
@@ -543,6 +544,7 @@ bagpipe locate bagpipe set where scotland .
 bag putin bag set contains rubbish .
 bag putin bag set contains thing .
 bag putin bag set holds thing .
+baker default baker set genls person .
 baker make bread set maker baker .
 baker make break get self make .
 baker make pie get itself bake .
@@ -602,6 +604,7 @@ bank default bank set plural banks .
 banker default banker set genls profession .
 bank lend money get self lend .
 bank lend person get self lend .
+bank lend bank set expects roi .
 bank transaction ibo get self makemention .
 barbecue cook food get self cook .
 barbecue default barbecue set where backyard .
@@ -631,6 +634,7 @@ baseball play team get self play .
 basement default basement set dusty true .
 basement default basement set plural basements .
 basic default basic set isa language .
+basic default basic set complexity simple .
 basin default basin set contains water .
 basin putin basin set contains water .
 basketball default basketball set colour orange .
@@ -652,7 +656,7 @@ basket make basket set part ribbon .
 basket putin basket set contains flower .
 basket putin basket set contains fruit .
 basket putin basket set contains snake .
-basket use basket set thing thing .
+basket use basket set contents thing .
 bassfiddle default bassfiddle set genls fiddle .
 basson default basson set where musicshop .
 basson locate basson set where musicshop .
@@ -729,8 +733,10 @@ bedsheet default bedsheet set where linencloset .
 bedsheet locate bedsheet set where linencloset .
 bee default bee set genls insect .
 bee default bee set livesin hive .
-bee default bee set part string .
+bee default bee set part sting .
 bee default bee set where hive .
+bee default bee set type worker .
+bee default bee set type quenn .
 beef make beef set source cow .
 beef make cow get self die .
 bee locate bee set where hive .
@@ -746,6 +752,7 @@ beer locate beer set where fridge .
 beer make beer set ingredient alcohol .
 beer make beer set part water .
 beermug default beermug set where bar .
+beermug default beermug set contains alcohol .
 beermug locate beermug set where bar .
 beethoven default beethoven set isa composer .
 beetle default beetle set genls insect .
@@ -804,9 +811,11 @@ binder default binder set contains document .
 binder putin binder set contains document .
 binding default binding set objectBound paper .
 bin make bin set madeof glass .
+bin make bin set madeof plastic .
 binoculars see picture set zoomed true .
 bin vars thing get self useful .
 biography default biography set genls book .
+biography default biography set mentions author .
 bird admire bird set beauty beautiful .
 bird default bird set beauty beautiful .
 bird default bird set endangered boolean .
@@ -820,6 +829,7 @@ bird default bird set part wing .
 bird default bird set size varied .
 bird default bird set stage chick .
 bird default bird set where sky .
+bird default bird set evolvedfrom dinosaur .
 bird eat seed get self eat .
 birdfeeder default birdfeeder set madeof wood .
 birdfeeder make birdfeeder set madeof wood .
