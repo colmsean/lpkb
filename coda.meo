@@ -1701,6 +1701,7 @@ child play child set where waterfountain .
 child play toy get self play .
 child smell flower get self smell .
 chimney transport smoke set where exit .
+chimney default chimney set dirty true .
 chimp default chimp set genls ape .
 chimp default chimp set intelligence smart .
 chimp default chimp set eats bananna .
@@ -1809,6 +1810,7 @@ coal burn thing set heated true .
 coal default coal set genls fuel .
 coal mine coal set aboveground true .
 coal mine coal set exist true .
+coal mine coal set expensive true .
 coal see coal set colour black .
 coat putongarment thing get self choose .
 coat wear person set wearing coat .
@@ -3398,8 +3400,8 @@ geography default geography set topic river .
 geography study person get self learn .
 georgewashington default georgewashington set isa president .
 geranium default geranium set genls flower .
-gerbile default gerbile set part fur .
-gerbile make gerbile set part fur .
+gerbil default gerbil set part fur .
+gerbil make gerbil set part fur .
 get default get set subevent receive .
 ghost default ghost set genls fictional .
 ghost default ghost set where castle .
@@ -3475,7 +3477,8 @@ goose default goose set animalnose honk .
 goose default goose set stage gosling .
 goose grow goose set stage gosling .
 gopher default gopher set genls rodent .
-gorilla see thing get self contains .
+gorilla see thing get contains see .
+gorilla lookinside gorilla get self see .
 gourmetshop sell gourmetshop set sells food .
 government buy government set owns secretdocument .
 government tax government get self spend .
@@ -3501,10 +3504,12 @@ grasshopper default grasshopper set genls insect .
 grass locate grass set where mountain .
 grass see grass set colour green .
 grave default grave set where graveyard .
+grave default grave set contains coffin .
 grave locate grave set where graveyard .
 gravity default gravity set isa force .
 gravy mix gravy set mixed true .
 graywolf default graywolf set populaton low .
+graywolf default graywolf set genls wolf .
 greatpyramid default greatpyramid set where eygpt .
 greatpyramid locate greatpyramid set where eygpt .
 greatwallofchina default greatwallofchina set age years .
@@ -3529,7 +3534,7 @@ group default group set genls set .
 group default group set leader person .
 group default group set memberof person .
 group default group set member whale .
-group default group set uniform garments .
+group default group set uniform garment .
 group join group set member person .
 group join group set member whale .
 group polo group set number null .
@@ -3600,9 +3605,9 @@ hand clean hand set clean true .
 hand clean soap get self clean .
 handgun default handgun set genls gun .
 hand lift hand set thing thing .
-hand lift thing get self weight<=max .
-hand play hand set thing thing .
-hand type hand set thing keyboard .
+hand lift thing get self weightlessthanmax .
+hand play hand set touching thing .
+hand type hand set touching keyboard .
 hand wash hand set clean true .
 hanger default hanger set supports suit .
 hanger storegarment hanger set garmentitem garmentitem .
@@ -3690,7 +3695,7 @@ hook default hook set shape curves .
 hop default hop set performedBy rabbit .
 horairballoon default horairballoon set genls airborne .
 hore admire hore set beauty pretty .
-hore default hore set beauty pretty .
+horse default horse set beauty attractive .
 horse admire horse set beauty beautiful .
 horsebackriding default horsebackriding set genls fun .
 horsebackriding default horsebackriding set genls funactivity .
