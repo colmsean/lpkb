@@ -126,6 +126,7 @@ airport make airport set part newspaperstand .
 airport travel passenger get self travel .
 airpump default airpump set genls machine .
 air sound air set pressure varied .
+air sound air set usedfor transmission .
 airtank dive person set airsource airtank .
 airterminal default airterminal set where airport .
 airterminal locate airterminal set where airport .
@@ -178,6 +179,7 @@ alligator default alligator set genls reptile .
 alligator default alligator set habitat water .
 almond dehusk almond set readytoeat true .
 almond eat almond set exist false .
+almond allegry person set allergicto nuts .
 altavista default altavista set isa searchengine .
 aluminium init aluminium set partof thing .
 aluminium recycle aluminium set madeinto thing .
@@ -233,6 +235,7 @@ animal default animal set conscious true .
 animal default animal set feeling love .
 animal default animal set goal simple .
 animal default animal set goal stayalive .
+animal default animal set goal contextsensitive .
 animal default animal set hungry true .
 animal default animal set importance important .
 animal default animal set injured false .
@@ -269,6 +272,7 @@ animal event animal get self survive .
 animal event life get self livinganimal .
 animal excrete pee get self excrete .
 animal excrete water get self pee .
+animal excrete urine get self excrete .
 animal feelemotion animal set feeling love .
 animal grow animal set size increasing .
 animal hear animal set bodypart ear .
@@ -357,6 +361,7 @@ apple cut apple set whole false .
 apple default apple set bigger fist .
 apple default apple set colour blue .
 apple default apple set colour red .
+apple default apple set appearance nice .
 apple default apple set exist true .
 apple default apple set genls fruit .
 apple default apple set health healthy .
@@ -7965,6 +7970,7 @@ pig default pig set leg null .
 pig default pig set part snout .
 pig default pig set stage piglet .
 pig default pig set where porch .
+pig default pig set intelligence clever .
 pigeon default pigeon set where city .
 pigeon locate pigeon set where city .
 pig grow pig set stage piglet .
@@ -9955,8 +9961,8 @@ world default world set life alife .
 world default world set shape sphere .
 world default world set syn planet .
 worm default worm set genls animal .
-worm default worm set part leg .
-worm make worm set part leg .
+worm unusaul worm set part leg .
+worm make worm set notpart leg .
 wrench default wrench set genls tool .
 wrigleyfield default wrigleyfield set isa stadium .
 write default write set where coffeeshop .
