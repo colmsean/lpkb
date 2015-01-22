@@ -1,4 +1,5 @@
 root init root set self root .
+lpkb default lpkb set respects user .
 a draw curveopenright get self draw .
 a draw curveclose get self draw .
 abbreviation default abbreviation set genls code .
