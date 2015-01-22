@@ -1495,7 +1495,6 @@ cat feelemotion cat set feeling curious .
 cat feelemotion cat set feeling fear .
 cat feelemotion cat set feeling unhappy .
 cat go cat set near horse .
-catherienhavasi default catherienhavasi set isa person .
 catherinehavasi default catherinehavasi set gender female .
 catherinehavasi default catherinehavasi set isa person .
 cat locate cat set where apartment .
@@ -1515,6 +1514,7 @@ catwalk default catwalk set genls walkway .
 cat wet cat set feeling unhappy .
 caveart default caveart set where cave .
 caveart locate caveart set where cave .
+caveart era caveart set when prehistory .
 cave default cave set where underground .
 cave locate cave set where underground .
 cd default cd set capacity mb .
@@ -1530,7 +1530,7 @@ cdplayer putin cdplayer set contains compactdisc .
 cd putin cdplayer get self putin .
 cedar default cedar set where eastcoastusa .
 cedar locate cedar set where eastcoastusa .
-celebrate default celebrate set why event .
+celebrate default celebrate set why lifeevent .
 celery default celery set colour green .
 celery default celery set where fridge .
 celery default celery set storedin fridge .
@@ -1568,7 +1568,7 @@ chair default chair set near table .
 chair default chair set part cushion .
 chair default chair set part leg .
 chair default chair set part seat .
-chair default chair set price dollar .
+chair default chair set price euro .
 chair default chair set smaller person .
 chair default chair set weight pounds .
 chair default chair set where classroom .
@@ -1592,6 +1592,7 @@ chair sit person set posture sitting .
 chalkboard write chalkboard set writing writing .
 chalk write chalkboard get self write .
 chalk write message get self new .
+chalk default chalk set colour white .
 chameleon see chameleon set colour changeable .
 champagne cool champagne get self serve .
 champagne cool champagne set chilled true .
@@ -1608,12 +1609,13 @@ cheat default cheat set genls badaction .
 checkbook paybill building get self pay .
 checkvitalsigns default checkvitalsigns set genls test .
 cheese default cheese set genls person .
-cheese default cheese set genls place .
+cheese default cheese set taste tasty .
 cheese default cheese set genls thing .
 cheese default cheese set isa noun .
 cheese default cheese set part hole .
 cheese make cheese set part hole .
 chef make food get self new .
+chef train chef set certified true .
 chefspecial default chefspecial set genls meal .
 chemical burn person set feels pain .
 chemical default chemical set where laboratory .
@@ -1631,8 +1633,6 @@ chessboard default chessboard set supports chesspiece .
 chessboard default chessboard set where gameshall .
 chessboard locate chessboard set where gameshall .
 chess default chess set genls game .
-chesse default chesse set part hole .
-chesse make chesse set part hole .
 chesspiece default chesspiece set in box .
 chest default chest set contains thing .
 chest default chest set part artery .
@@ -1698,6 +1698,7 @@ child smell flower get self smell .
 chimney transport smoke set where exit .
 chimp default chimp set genls ape .
 chimp default chimp set intelligence smart .
+chimp default chimp set eats bananna .
 china default china set capital beijing .
 china default china set genls pottery .
 china default china set size large .
@@ -1728,6 +1729,7 @@ cigarette default cigarette set genls product .
 cigarette putin cigarette set inmouth true .
 cigarettesmoke ingest cigarette get self smoke .
 cigarette smoke person get self ingest .
+cigarette smoke person get self suffercancer .
 cigarette takeout cigarette set inmouth false .
 cinema default cinema set part chair .
 cinema default cinema set sells popcorn .
@@ -1851,6 +1853,7 @@ collie default collie set genls dog .
 colm default colm set isa program .
 colm default colm set likes computer .
 colm feelemotion colm set feeling happy .
+colm default colm set friend lpkb .
 colorado default colorado set terrain mountain .
 colour default colour set longestwavelength purple .
 colour mix green set component blue .
@@ -1906,6 +1909,8 @@ company plan person get self work .
 company sell company set sells product .
 company sell company set sells subscription .
 company sell product get self sell .
+company sell product get self promote .
+company goal company get self makeaprofit .
 company stoptrading company set trading false .
 company takeover company set owner bidder .
 company test product get self test .
@@ -3216,6 +3221,7 @@ fox default fox set where wood .
 fox locate fox set where den .
 fox locate fox set where wood .
 france default france set capital paris .
+france default france set constitution republic .
 france give france set thing thing .
 france give statueofliberty get self give .
 france give usa get self give .
@@ -3251,8 +3257,8 @@ frisbee default frisbee set playingWith false .
 frisbee play frisbee set playingWith true .
 frog default frog set stage tadpole .
 frog grow frog set stage tadpole .
-from default from set stage tadpole .
-from grow from set stage tadpole .
+frog default frog set stage tadpole .
+frog grow frog set stage tadpole .
 frontcourtyard default frontcourtyard set part wall .
 frontcourtyard make frontcourtyard set part wall .
 frontyard default frontyard set part lawn .
@@ -3285,6 +3291,7 @@ fungus default fungus set where forest .
 fungus locate fungus set where forest .
 funk default funk set genls music .
 fur default fur set genls garment .
+fur function fur set function keepwarm .
 furnituredresser default furnituredresser set where furnitureshop .
 furnace default furnace set heats thing .
 furniture default furniture set part linoleum .
