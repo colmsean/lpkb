@@ -209,7 +209,7 @@ angel default angel set morality good .
 animal absorb animal set alive false .
 animal absorbpoison animal set alive false .
 animal admire animal set beauty beautiful .
-animal attack thing get self strength>strength .
+animal attack animal get self teststrength .
 animal biowait animal set hungry true .
 animal birth animal get self die .
 animal birth animal get self live .
