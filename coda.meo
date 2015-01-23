@@ -211,6 +211,7 @@ animal absorbpoison animal set alive false .
 animal admire animal set beauty beautiful .
 animal attack animal get self teststrength .
 animal biowait animal set hungry true .
+animal biowait animal set older true .
 animal birth animal get self die .
 animal birth animal get self live .
 animal birth animal set part brain .
