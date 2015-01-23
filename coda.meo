@@ -77,7 +77,7 @@ agent memorise agent set mind pit .
 agent owes lender get mymoney give .
 agent plan agent get self event .
 agent plan agent get self memorise .
-agent plan event get self plan .
+agent plan newevent get self plan .
 agent publish falukuiriren get self publish .
 agent publish falun get self publish .
 agent recycle cardboard get self recycle .
