@@ -1621,7 +1621,7 @@ cheese default cheese set isa noun .
 cheese default cheese set part hole .
 cheese default cheese set taste tasty .
 cheese make cheese set part hole .
-chef make food get self new .
+chef make food get self prepare .
 chef train chef set certified true .
 chefspecial default chefspecial set genls meal .
 chemical burn person set feels pain .
@@ -9319,6 +9319,7 @@ thing default thing set where store .
 thing default thing set where supermarket .
 thing default thing set where theatre .
 thing default thing set where tvstation .
+thing default thing set where universe .
 thing fall gravity get self fall .
 thing fall injury get self fall .
 thing fall person get self injury .
@@ -9999,8 +10000,8 @@ y draw sock get self draw .
 yahoo default yahoo set isa searchengine .
 yak measure yak set size large .
 yankee default yankee set isa baseballteam .
-year default year set day null .
-year default year set month null .
+year default year set day hundred .
+year default year set month twelve .
 yellow default yellow set genls colour .
 yoke default yoke set genls device .
 yolk see yolk set colour yellow .
