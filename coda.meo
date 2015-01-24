@@ -152,7 +152,7 @@ alarmclock set alaramclock set ready true .
 alarmclock wakeup person get self wakeup .
 alarm off alarm set on false .
 alarm on alarm set on true .
-alarm on person get near on .
+alarm on person get near switchon .
 alarm on person get near setalarm .
 alarm setalarm alarm set time time .
 alarm setalarm alarm set triggertime time .
@@ -2468,7 +2468,7 @@ document write document set mypit pit .
 dogandponyshow default dogandponyshow set syn spectacle .
 dog attack person get self attack .
 dog bite animal get self pain .
-dog chase dog set thing thing .
+dog chase dog set target thing .
 dog default dog set angry false .
 dog default dog set attached chain .
 dog default dog set attached chokechain .
@@ -3919,7 +3919,6 @@ human default human set where vancouver .
 human die human set alive false .
 human die interaction get self add .
 human divorce interaction get self add .
-human divorce thing get self neg .
 human dress human set clothed true .
 human eat food get self eat .
 human employs interaction get self add .
@@ -6092,7 +6091,7 @@ person eat diningarea get self eat .
 person eat dinner get self eat .
 person eat duck get self eat .
 person eat duck set tasty true .
-person eat service get meal eat .
+person eat service get product eat .
 person eat service get where eat .
 person eat service get owner pay .
 person eat service get vacancy reserve .
@@ -6171,7 +6170,7 @@ person evoke emotion get self evoke .
 person evoke music get self evoke .
 person exam doctor get self exam .
 person exam person get knows discover .
-person exam person get knows exam .
+person exam person get knows exammaterial .
 person exam person get knows learn .
 person exam person get knows memorise .
 person exam person get knows mtrans .
@@ -7949,7 +7948,7 @@ photocopier default photocopier set where office .
 photocopier locate photocopier set where office .
 photograph create camera get self create .
 photograph create photograph set thing thing .
-photo make thing get self create .
+photo make thing get self createpit .
 physicaleducation default physicaleducation set genls subject .
 piano classify piano set genls instrument .
 piano default piano set genls instrument .
@@ -7963,15 +7962,15 @@ picture default picture set mentions fox .
 picture default picture set part frame .
 picture make picture set part frame .
 picture see picture get self describe .
-picture write picture set mentions eagle .
-picture write picture set mentions fox .
-picture write picture set mentions person .
+picture sketch picture set mentions eagle .
+picture sketch picture set mentions fox .
+picture sketch picture set mentions person .
 pi default pi set isa irrationalnumber .
 pi default pi set isa number .
 piealamode default piealamode set genls food .
 pie default pie set genls dessert .
 pie default pie set genls food .
-pig default pig set leg null .
+pig default pig set leg four .
 pig default pig set part snout .
 pig default pig set stage piglet .
 pig default pig set where porch .
@@ -7985,6 +7984,7 @@ pig make pig set part snout .
 pika default pika set genls mammal .
 pike default pike set genls weapon .
 pike default pike set in lake .
+pike default pike set genls fish .
 pillowcase default pillowcase set where bedroom .
 pillowcase default pillowcase set where closet .
 pillowcase locate pillowcase set where bedroom .
@@ -8741,7 +8741,7 @@ skyscraper go skyscraper set near building .
 skyscraper locate skyscraper set where city .
 sky see sky set colour blue .
 slang default slang set genls word .
-sleep default sleep set frequency daily .
+sleep default sleep set frequency nightly .
 sleep default sleep set genls rest .
 sleep default sleep set when night .
 sliderule approximatemultiplication sliderule get self approximatedivision .
@@ -8778,6 +8778,7 @@ snow default snow set madeof water .
 snow default snow set warmer rain .
 snowflake default snowflake set madeof snow .
 snowflake make snowflake set madeof snow .
+snowflake default snowflake set unique true .
 snowing default snowing set when winter .
 snow make snow set madeof water .
 snow make water get self make .
