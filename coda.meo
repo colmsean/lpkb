@@ -982,6 +982,7 @@ book default book set genls ibo .
 book default book set madeof paper .
 book default book set mentions pit .
 book default book set page few .
+book default book set page many .
 book default book set pit pit .
 book default book set reader millions .
 book default book set where bookshelf .
@@ -1013,7 +1014,9 @@ bookstore sell bookstore set sells book .
 bookstore sell bookstore set sells cookbook .
 book write book get self read .
 book write book set mentions history .
+book write book set mentions astronomy .
 book write book set mentions pit .
+book write book set mentions celebrity .
 boot default boot set genls footwear .
 boot default boot set genls show .
 boot default boot set wornon foot .
@@ -1061,7 +1064,7 @@ box make box set madeof cardboard .
 boxoffice default boxoffice set sells ticket .
 boxoffice sell boxoffice set sells ticket .
 box putin box set contains thing .
-box putin box set thing thing .
+box putin box set stores thing .
 box space box set haspace true .
 box takeout box set thing thing .
 boy date boy set friend girl .
@@ -9975,7 +9978,7 @@ world default world set life alife .
 world default world set shape sphere .
 world default world set syn planet .
 worm default worm set genls animal .
-worm unusaul worm set part leg .
+worm unusual worm set part leg .
 worm make worm set notpart leg .
 wrench default wrench set genls tool .
 wrigleyfield default wrigleyfield set isa stadium .
