@@ -1,3 +1,4 @@
+nuclearreactor repair nuclearreactor get environs makesafe .
 root init root set self root .
 lpkb default lpkb set respects user .
 a draw curveopenright get self draw .
@@ -3486,7 +3487,7 @@ government tax government get self spend .
 gps default gps set genls satellite .
 grain default grain set genls edible .
 grain measure grain set size tiny .
-grap default grap set ingedient water .
+grapewater default grapewater set ingedient water .
 grape default grape set genls fruit .
 grapeseedoil rub grapeseedoil set skin skin .
 graph default graph set shows thing .
@@ -4436,7 +4437,7 @@ lip motion lip set moving true .
 lips vibrate thing get self motion .
 liquid default liquid set moving false .
 liquiddrink default liquiddrink set genls liquid .
-liquid drink liquid set thing animal .
+liquid drink liquid set consumer animal .
 liquid measure liquid set thing thing .
 liquid motion liquid set moving true .
 liquid pour liquid set containedin container .
@@ -8152,6 +8153,7 @@ plato default plato set isa famousperson .
 plato default plato set isa philosopher .
 plato default plato set life dead .
 plato default plato set likesdoing thinking .
+plato era plato set when longago .
 playattheatre default playattheatre set genls entertainment .
 playattheatre default playattheatre set subevent bow .
 playattheatre default playattheatre set subevent clap .
@@ -8184,6 +8186,7 @@ pod default pod set genls groupofanimals .
 point default point set genls location .
 point default point set size small .
 point measure point set size small .
+point study point set subject geometry .
 poker default poker set subevent bet .
 poker default poker set subevent call .
 poker default poker set subevent raise .
@@ -8201,6 +8204,8 @@ pond default pond set madeof water .
 pond make pond set madeof water .
 pool default pool set contains water .
 pool putin pool set contains water .
+pool use person set relaxed true .
+pool use pool get user relax .
 pooltable default pooltable set where bar .
 pooltable locate pooltable set where bar .
 poorpeople join poorpeople set member null .
@@ -8210,6 +8215,7 @@ pope default pope set livesin vatican .
 popsicle cool popsicle set temperature cold .
 porcupine default porcupine set genls mammal .
 program alert button get itself isok .
+program default program set pit sourcecode .
 porkbutcher default porkbutcher set sells porkchop .
 porkbutcher sell porkbutcher set sells porkchop .
 porter default porter set where airport .
@@ -8230,17 +8236,19 @@ potato locate potato set where foodstore .
 potato locate potato set where vegetablegarden .
 potato locate potato set where vegetablerack .
 pot default pot set where kitchen .
+pot default pot set colour black .
 pot locate pot set where kitchen .
 pour default pour set liquidPoured liquid .
 powerscrewdriver default powerscrewdriver set genls device .
 powerscrewdriver default powerscrewdriver set genls screwdriver .
 prairiedog default prairiedog set genls groundsquirrel .
+prairiedog default prairiedog set where prairie .
 predator eat animal get self die .
 predator eat animal get self eat .
 president default president set near person .
 president go president set near person .
 president list president set example kennedy .
-presient default presient set livesin whitehouse .
+president default president set livesin whitehouse .
 pressrelease write pressrelease set mentions product .
 pretzel default pretzel set taste salt .
 pretzel eat beer get self drink .
@@ -8254,7 +8262,7 @@ printer default printer set function print .
 prison default prison set where town .
 prisoner default prisoner set livesin prison .
 prison locate prison set where town .
-privatefunction default privatefunction set ticket ticket .
+privatefunction default privatefunction set requiredticket ticket .
 probability default probability set measures uncertainty .
 problem default problem set solved false .
 problem solve group get self solve .
