@@ -482,6 +482,8 @@ astronaut locate astronaut set where moon .
 astronaut locate astronaut set where space .
 astronomer default astronomer set studies universe .
 athlete default athlete set health fit .
+athlete train person set concentrated true .
+athlete train person set committed true .
 athleticclub default athleticclub set part squashcourt .
 athleticclub make athleticclub set part squashcourt .
 atlas default atlas set part book .
