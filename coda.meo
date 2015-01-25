@@ -415,8 +415,8 @@ arch locate arch set where paris .
 archelon default archelon set genls extinct .
 architecture default architecture set genls field .
 are default are set isa word .
-arean default arean set where rome .
-arean locate arean set where rome .
+arena default arena set where rome .
+arena locate arena set where rome .
 arm carry arm get self get .
 arm default arm set longer leg .
 arm feelemotion arm set feeling numb .
