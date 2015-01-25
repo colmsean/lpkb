@@ -488,6 +488,7 @@ athleticclub default athleticclub set part squashcourt .
 athleticclub make athleticclub set part squashcourt .
 atlas default atlas set part book .
 atlas make atlas set part book .
+atlas theme atlas set mentions globe .
 atmosphere default atmosphere set madeof gas .
 atmosphere make atmosphere set madeof gas .
 attack plan army get self attack .
@@ -749,7 +750,7 @@ bedsheet locate bedsheet set where linencloset .
 bee default bee set genls insect .
 bee default bee set livesin hive .
 bee default bee set part sting .
-bee default bee set type quenn .
+bee default bee set type queen .
 bee default bee set type worker .
 bee default bee set where hive .
 bee locate bee set where hive .
