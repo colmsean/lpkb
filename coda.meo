@@ -1,4 +1,4 @@
-a draw curveclose get self draw 
+a draw curveclose get self draw .
 a draw curveopenright get self draw .
 abbreviation default abbreviation set genls code .
 abbreviation default abbreviation set length short .
