@@ -870,13 +870,16 @@ bird see thing get self mentions .
 birdfeeder default birdfeeder set madeof wood .
 birdfeeder make birdfeeder set madeof wood .
 birth default birth set when time .
+birth default birth set where location .
 birthday celebrate person set emotion happy .
 birthday default birthday set frequency annual .
 birthday default birthday set frequency year .
 bishopthechesspiece default bishopthechesspiece set taken false .
 bishopthechesspiece move bishopthechesspiece set previous diagonal .
 bison default bison set genls animal .
+bison default bison set similar oxen .
 blackbird default blackbird set colour black .
+blackbird default blackbird set genls songbird .
 blackbird see blackbird set colour black .
 blackboard default blackboard set where classroom .
 blackboard locate blackboard set where classroom .
@@ -891,7 +894,7 @@ blender clean blender set dirty false .
 blender mash food set mashed true .
 bliss default bliss set syn happy .
 block make block set madeof wood .
-blood circulateblood blood set hasAir true .
+blood circulateblood blood set hasair true .
 blood circulation vein get self circulation .
 blood default blood set colour red .
 blood see blood set colour blue .
@@ -916,6 +919,8 @@ boardgame play person get self knowsrules .
 boardingpass default boardingpass set where airport .
 boardingpass locate boardingpass set where airport .
 boat captain boat set captain person .
+boat default boat set function transport .
+boat default boat set carries cargo .
 boat default boat set genls vehicle .
 boat default boat set part engine .
 boat default boat set part lifejacket .
@@ -969,6 +974,7 @@ bone init bone set broken false .
 bone measure bone set size smallest .
 bono default bono set height short .
 bono default bono set isa singer .
+bono default u2 set member bono .
 book bind needle get self bind .
 book bind thread get self bind .
 book burn book set exist false .
@@ -1003,6 +1009,7 @@ book record hundredyears get self record .
 book record pit get self record .
 book write book get self read .
 book write book set mentions astronomy .
+book wrtie book set mentions climate .
 book write book set mentions celebrity .
 book write book set mentions history .
 book write book set mentions pit .
@@ -1135,6 +1142,7 @@ britishcolumbia travel britishcolumbia set capital victoria .
 broadcaststduio broadcast song get self broadcast .
 broccoli default broccoli set genls vegetable .
 brocollie default brocollie set genls vegetable .
+brook default brook set similar stream .
 brook default brook set where forest .
 brook locate brook set where forest .
 brook make brook set madeof water .
@@ -1238,6 +1246,7 @@ butcher locate butcher set where packingplant .
 butchershop default butchershop set sells meat .
 butchershop sell butchershop set sells meat .
 butter cut butter set cut true .
+butter default butter set foodtype dairy .
 butter default butter set madefrom cream .
 butter fry butter set fried true .
 butter fry butter set heated true .
@@ -1270,6 +1279,7 @@ cable default cable set madeof fibreoptic .
 cable make cable set madeof fibreoptic .
 cable transfer electricity set where destination .
 cactus default cactus set genls plant .
+cactus default cactus set habitat desert .
 cactus flower cactus set part flower .
 cactus grow water get self grow .
 cafe eat person get self eat .
@@ -1371,7 +1381,7 @@ car default car set speed fast .
 car default car set tows wagon .
 car default car set travels highway .
 car default car set travels road .
-car default car set wheel null .
+car default car set wheel four .
 car default car set where driveinmovie .
 car default car set where driveway .
 car default car set where garage .
@@ -1421,7 +1431,7 @@ card write card set mentions address .
 card write card set mentions book .
 card write card set mentions phonenumber .
 cardgame default cardgame set subevent deal .
-cardhand default cardhand set card null .
+cardhand default cardhand set card five .
 cardturnstile default cardturnstile set function accesscontrol .
 cardturnstile use cardturnstile set function accesscontrol .
 caribou default caribou set where artic .
@@ -1495,6 +1505,7 @@ cat default cat set where apartment .
 cat default cat set where chair .
 cat default cat set where litterbox .
 cat default cat set where petstore .
+cat default lolcats set usuallymentions cat .
 cat diet cat get portion consume .
 cat eat fish get self eat .
 cat eat thing get self eat .
@@ -1832,6 +1843,7 @@ coffee default coffee set genls beverage .
 coffee default coffee set genls drinkliquid .
 coffee default coffee set ingredient caffeine .
 coffee default coffee set madeof caffeine .
+coffee default caffeine set addictive true .
 coffee drink coffee set drunk true .
 coffee drink person get self drink .
 coffee drink person get self urinate .
@@ -2274,7 +2286,7 @@ darts default darts set genls sport .
 datum default datum set plural data .
 daughter default daughter set gender female .
 dawm default dawm set syn sunrise .
-day default day set hour null .
+day default day set hour twentyfour .
 daydream default daydream set where space .
 daydream locate daydream set where space .
 deathpenalty default deathpenalty set genls punishment .
@@ -2334,7 +2346,7 @@ despair default despair set syn unhappy .
 dessert eat dessert set exist false .
 dessert eatdessert dessert set exist false .
 dessert eatdessert person set tastes sweet .
-desset default desset set climate dryclimate .
+desert default desert set climate dryclimate .
 device break device set on false .
 device break device set working false .
 device buy device set owner person .
@@ -2393,6 +2405,7 @@ direction ask thing get self locate .
 direction ask thing get self number .
 direction plan compass get self plan .
 dirt default dirt set syn soil .
+dirt default dirt set dirty true .
 dirt event dirt set attached thing .
 dirt event person get self clean .
 dirt event person get self event .
