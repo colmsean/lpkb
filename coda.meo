@@ -3698,7 +3698,7 @@ history default history set isa subject .
 history write history set mentions time .
 hockey default hockey set genls sport .
 hog default hog set genls pig .
-holdiay default holdiay set when winter .
+holiday default holiday set when winter .
 hole make tree get part make .
 holiday plan person get self avoid .
 holly default holly set genls plant .
