@@ -8223,7 +8223,8 @@ pool use person set relaxed true .
 pool use pool get user relax .
 pooltable default pooltable set where bar .
 pooltable locate pooltable set where bar .
-poorpeople join poorpeople set member null .
+pooltable default pooltable set function playagame .
+poorpeople join poorpeople set member many .
 popcorn default popcorn set where theater .
 popcorn locate popcorn set where theater .
 pope default pope set livesin vatican .
@@ -8347,13 +8348,14 @@ rabbit default rabbit set eats meat .
 rabbit default rabbit set eats vegetable .
 rabbit default rabbit set genls character .
 rabbit default rabbit set intelligence stupid .
-rabbit default rabbit set japanese usagi .
+rabbit default rabbit set japaneseword usagi .
 rabbit default rabbit set parentof many .
 rabbit default rabbit set where underwater .
 rabbit fight elephant get self fight .
 rabbit locate rabbit set where underwater .
 racediscrimation default racediscrimation set genls antisocial .
 racehorse default racehorse set where racetrack .
+racehorse default racehorse set name redrum .
 racehorse locate racehorse set where racetrack .
 racingboat default racingboat set lookslike racingboat .
 radiator default radiator set genls coolingdevice .
@@ -8369,6 +8371,7 @@ rainbow see rainbow set colour indigo .
 rainbow see rainbow set colour red .
 rainbow see rainbow set colour violet .
 rainbow see rainbow set colour yellow .
+rainbow describe rainbow set model rainbowmodel .
 raincloud default raincloud set part water .
 raincloud make raincloud set part water .
 raindrop default raindrop set madeof water .
