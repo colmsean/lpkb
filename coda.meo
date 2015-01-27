@@ -1592,6 +1592,7 @@ chair default chair set part leg .
 chair default chair set part seat .
 chair default chair set price euro .
 chair default chair set smaller person .
+chair default chair set supports cushion .
 chair default chair set weight pounds .
 chair default chair set where classroom .
 chair default chair set where furnitureshop .
@@ -1623,6 +1624,8 @@ champagne default champagne set exist true .
 champagne default champagne set served false .
 champagne drink champagne set exist false .
 champagne drink person get self newfeelings .
+champagne drink person get self celebrate .
+champagne drink person get friend celebrate .
 champagne serve champagne set served true .
 chargoggagauggmanchaugagoggchaubunagungamaugg default chargoggagauggmanchaugagoggchaubunagungamaugg set isa lake .
 chart default chart set mentions eye .
