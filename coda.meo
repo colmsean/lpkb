@@ -8396,8 +8396,10 @@ red default red set isa colour .
 refridgerator default refridgerator set contains bacon .
 refridgerator putin refridgerator set contains bacon .
 regatta default regatta set syn boatrace .
+regatta default regatta set involves boat .
 regge default regge set isa genre .
 reindeer default reindeer set where farnorth .
+reindeer default reindeer set name rudolph .
 reindeer locate reindeer set where farnorth .
 rescuering default rescuering set where seashore .
 rescuering locate rescuering set where seashore .
@@ -8445,6 +8447,7 @@ rink default rink set madeof ice .
 rink default rink set part ice .
 rink make rink set madeof ice .
 rink make rink set part ice .
+river default river set clean true .
 river default river set flowsinto delta .
 river default river set genls landmark .
 river default river set genls pathway .
