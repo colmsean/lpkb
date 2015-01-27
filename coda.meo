@@ -8246,6 +8246,7 @@ potato default potato set where cupboard .
 potato default potato set where foodstore .
 potato default potato set where vegetablegarden .
 potato default potato set where vegetablerack .
+potato default potato set healthy true .
 potato locate potato set where cupboard .
 potato locate potato set where foodstore .
 potato locate potato set where vegetablegarden .
