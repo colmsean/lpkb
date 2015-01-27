@@ -1509,6 +1509,7 @@ cat default lolcats set usuallymentions cat .
 cat diet cat get portion consume .
 cat eat fish get self eat .
 cat eat thing get self eat .
+cat feelemotion cat set dislikes dog .
 cat feelemotion cat set feeling content .
 cat feelemotion cat set feeling curious .
 cat feelemotion cat set feeling fear .
