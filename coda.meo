@@ -7229,7 +7229,7 @@ person rest person get self sit .
 person rest person set where motel .
 person retire give get destination retire .
 person reverse car get self reverse .
-person ride baloon get self ride .
+person ride balloon get self ride .
 person ride bike get self ride .
 person ride bus get self ride .
 person ride expensive get self ride .
